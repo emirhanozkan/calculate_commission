@@ -1,0 +1,27 @@
+{
+  "name": "calculate_commission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "eslintConfig": {
+    "extends": [
+      "ES6"
+    ]
+  },
+  "engines": {
+    "node": "18.4.0"
+  },
+  "scripts": {
+    "start": "node app.js input.json",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
